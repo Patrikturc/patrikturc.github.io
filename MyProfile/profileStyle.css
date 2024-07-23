@@ -1,0 +1,59 @@
+body{
+    background-color: green;
+    color: rgb(4,11,104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.box-1{
+    background-color: whitesmoke;
+    padding: 0% 20%;
+    border-bottom: 5px red solid;
+    border-bottom: 10px;
+    
+}
+
+.box-2{
+    background-color: wheat;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 h4{
+    font-family: 'segoe UI', Tahoma, Geneva, Verndana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+#myform{
+    background-color: grey;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+}
+
+#myform input[type = "text"]{
+    padding: 9px;
+    margin-top: 10px;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+a:hover{
+    color: red;
+}
